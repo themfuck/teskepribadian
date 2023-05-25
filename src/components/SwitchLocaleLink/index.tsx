@@ -38,6 +38,11 @@ export function SwitchLocaleLink() {
 
   return (
     <Container>
+      <Trans>
+               <StyledInternalLink onClick={onClick} to={to}>
+          {LOCALE_LABEL[targetLocale]}
+        </StyledInternalLink>
+      </Trans>
     </Container>
   )
 }
