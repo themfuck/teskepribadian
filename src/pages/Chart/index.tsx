@@ -229,42 +229,6 @@ export default function Explore() {
             <ThemedText.DeprecatedMediumHeader style={{ marginTop: '0.5rem', justifySelf: 'flex-start' }}>
               TVL: {formatDollarAmount(tvlUSD)}
             </ThemedText.DeprecatedMediumHeader>
-            <RowFixed>
-              <ResponsiveButtonSecondary
-                padding="6px 8px"
-                style={{ marginTop: '0.5rem', justifySelf: 'flex-end' }}
-                onClick={() => {
-                  window.open('https://www.coingecko.com/en/exchanges/animeswap', '_blank')
-                }}
-              >
-                <Text fontWeight={500} fontSize={16}>
-                  CoinGecko<sup>↗</sup>
-                </Text>
-              </ResponsiveButtonSecondary>
-              <ResponsiveButtonSecondary
-                padding="6px 8px"
-                style={{ marginTop: '0.5rem', justifySelf: 'flex-end' }}
-                onClick={() => {
-                  window.open('https://coinmarketcap.com/exchanges/animeswap/', '_blank')
-                }}
-              >
-                <Text fontWeight={500} fontSize={16}>
-                  CoinMarketCap<sup>↗</sup>
-                </Text>
-              </ResponsiveButtonSecondary>
-              <ResponsiveButtonSecondary
-                padding="6px 8px"
-                marginLeft={'8px'}
-                style={{ marginTop: '0.5rem', justifySelf: 'flex-end' }}
-                onClick={() => {
-                  window.open('https://dexscreener.com/aptos/animeswap', '_blank')
-                }}
-              >
-                <Text fontWeight={500} fontSize={16}>
-                  DEXScreener<sup>↗</sup>
-                </Text>
-              </ResponsiveButtonSecondary>
-            </RowFixed>
             {!seeAll && (
               <ResponsiveButtonPrimary
                 padding="6px 8px"
