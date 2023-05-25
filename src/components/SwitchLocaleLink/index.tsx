@@ -38,12 +38,6 @@ export function SwitchLocaleLink() {
 
   return (
     <Container>
-      <Trans>
-        AnimeSwap available in:{' '}
-        <StyledInternalLink onClick={onClick} to={to}>
-          {LOCALE_LABEL[targetLocale]}
-        </StyledInternalLink>
-      </Trans>
     </Container>
   )
 }

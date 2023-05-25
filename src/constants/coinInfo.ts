@@ -12,7 +12,7 @@ export const APTOS_CoinInfo: { [address: string]: Coin } = {
   '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::AnimeCoin::ANI': {
     address: '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::AnimeCoin::ANI',
     decimals: 8,
-    symbol: 'HANA',
+    symbol: 'HNK',
     name: 'HANAKO Coin',
     logoURL: ['/static/media/logo.2f2c75ffef00893c00a39509435f58be.svg'],
     projectURL: 'http://animeswap.org/',
@@ -360,7 +360,7 @@ export const APTOS_TESTNET_CoinInfo: { [address: string]: Coin } = {
   '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::AnimeCoin::ANI': {
     address: '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::AnimeCoin::ANI',
     decimals: 8,
-    symbol: 'HANA',
+    symbol: 'HNK',
     name: 'Hanako Coin',
     logoURL: ['/static/media/logo.2f2c75ffef00893c00a39509435f58be.svg'],
     projectURL: '',
