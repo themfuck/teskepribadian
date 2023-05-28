@@ -68,7 +68,6 @@ export const APTOS_CoinInfo: { [address: string]: Coin } = {
     symbol: 'MOD',
     name: 'Move Dollar',
     logoURL: ['https://coinlist.animeswap.org/icons/MOD.svg'],
-    projectURL: 'https://www.thala.fi/',
   },
   '0xcc78307c77f1c2c0fdfee17269bfca7876a0b35438c3442417480c0d5c370fbc::AptopadCoin::APD': {
     address: '0xcc78307c77f1c2c0fdfee17269bfca7876a0b35438c3442417480c0d5c370fbc::AptopadCoin::APD',
