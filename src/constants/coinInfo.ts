@@ -23,7 +23,6 @@ export const APTOS_CoinInfo: { [address: string]: Coin } = {
     symbol: 'HNK',
     name: 'Hanako Coin',
     logoURL: ['/static/media/logo.2f2c75ffef00893c00a39509435f58be.svg'],
-    projectURL: 'http://animeswap.org/',
   },
   '0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC': {
     address: '0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC',
