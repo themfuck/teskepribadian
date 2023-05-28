@@ -174,7 +174,7 @@ export default function ANIAirdropClaimModal({ isOpen, onDismiss }: { isOpen: bo
                   <span role="img" aria-label="party-hat">
                     🎉{' '}
                   </span>
-                  <Trans>Welcome to AnimeSwap :) </Trans>
+                  <Trans>Welcome to Hanako :) </Trans>
                   <span role="img" aria-label="party-hat">
                     🎉
                   </span>

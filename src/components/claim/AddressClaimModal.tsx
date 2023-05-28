@@ -166,7 +166,7 @@ export default function AddressClaimModal({ isOpen, onDismiss }: { isOpen: boole
               Get APT coin from wallet airdrop.
             </ThemedText.DeprecatedSubHeader>
             <ThemedText.DeprecatedSubHeader fontWeight={500}>
-              Get test BTC USDT for AnimeSwap testing, test coins are no practical value on Aptos DevNet.
+              Get test BTC USDT for Hanako testing, test coins are no practical value on Aptos DevNet.
             </ThemedText.DeprecatedSubHeader>
           </AutoColumn>
           <AutoColumn gap="md" style={{ padding: '1rem', paddingTop: '0', paddingBottom: '2rem' }} justify="center">

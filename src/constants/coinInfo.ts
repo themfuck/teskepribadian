@@ -9,14 +9,6 @@ export const APTOS_CoinInfo: { [address: string]: Coin } = {
     logoURL: ['https://coinlist.animeswap.org/icons/APT.svg'],
     projectURL: 'https://aptoslabs.com/',
   },
-  '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::AnimeCoin::ANI': {
-    address: '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::AnimeCoin::ANI',
-    decimals: 8,
-    symbol: 'HNK',
-    name: 'HANAKO Coin',
-    logoURL: ['/static/media/logo.2f2c75ffef00893c00a39509435f58be.svg'],
-    projectURL: 'http://animeswap.org/',
-  },
   '0x777821c78442e17d82c3d7a371f42de7189e4248e529fe6eee6bca40ddbb::apcoin::ApCoin': {
     address: '0x777821c78442e17d82c3d7a371f42de7189e4248e529fe6eee6bca40ddbb::apcoin::ApCoin',
     decimals: 8,
@@ -356,14 +348,6 @@ export const APTOS_TESTNET_CoinInfo: { [address: string]: Coin } = {
     name: 'Aptos',
     logoURL: ['https://coinlist.animeswap.org/icons/APT.svg'],
     projectURL: 'https://aptoslabs.com/',
-  },
-  '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::AnimeCoin::ANI': {
-    address: '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::AnimeCoin::ANI',
-    decimals: 8,
-    symbol: 'HNK',
-    name: 'Hanako Coin',
-    logoURL: ['/static/media/logo.2f2c75ffef00893c00a39509435f58be.svg'],
-    projectURL: '',
   },
   '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::TestCoinsV1::USDT': {
     address: '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::TestCoinsV1::USDT',

@@ -362,7 +362,7 @@ export default function Pool() {
               <ExternalLink
                 style={{ color: theme.deprecated_white, textDecoration: 'underline' }}
                 target="_blank"
-                href="https://docs.animeswap.org"
+                href="https://docs.hanakonfts.xyz.org"
               >
                 {/* <ThemedText.DeprecatedWhite fontSize={14}>
                   <Trans>Read more about providing liquidity</Trans>
