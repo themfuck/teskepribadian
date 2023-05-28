@@ -38,8 +38,7 @@ export const CHAIN_INFO: ChainInfoMap = {
     logoUrl: aptosLogo,
     nativeCoin: APTOS_CoinInfo['0x1::aptos_coin::AptosCoin'],
     aniCoin: APTOS_CoinInfo['0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK'],
-    defaultBuyCoin:
-      APTOS_CoinInfo['0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK'],
+    defaultBuyCoin: APTOS_CoinInfo['0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK'],
     stableCoin: APTOS_CoinInfo['0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC'],
     zUSDC: APTOS_CoinInfo['0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC'],
   },
@@ -63,8 +62,7 @@ export const CHAIN_INFO: ChainInfoMap = {
     label: 'AptosDev',
     logoUrl: aptosLogo,
     nativeCoin: APTOS_DEVNET_CoinInfo['0x1::aptos_coin::AptosCoin'],
-    aniCoin:
-      APTOS_DEVNET_CoinInfo['0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK'],
+    aniCoin: APTOS_DEVNET_CoinInfo['0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK'],
     defaultBuyCoin:
       APTOS_DEVNET_CoinInfo['0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK'],
     stableCoin:
@@ -98,8 +96,7 @@ export const CHAIN_INFO: ChainInfoMap = {
     logoUrl: suiLogo,
     nativeCoin: SUI_DEVNET_CoinInfo['0x2::sui::SUI'],
     aniCoin: SUI_DEVNET_CoinInfo['0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK'],
-    defaultBuyCoin:
-      SUI_DEVNET_CoinInfo['0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK'],
+    defaultBuyCoin: SUI_DEVNET_CoinInfo['0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK'],
     stableCoin: SUI_DEVNET_CoinInfo['0x1495bf38cc489bb78e4fc4de6ad5d57954b66b5a260f84e9bf6bcd5d0514c8db::usdt::USDT'],
   },
 }
