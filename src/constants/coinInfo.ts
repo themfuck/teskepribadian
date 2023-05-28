@@ -17,6 +17,14 @@ export const APTOS_CoinInfo: { [address: string]: Coin } = {
     logoURL: ['https://coinlist.animeswap.org/icons/APC.png'],
     projectURL: 'https://aptpp.com/',
   },
+  '0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK': {
+    address: '0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK',
+    decimals: 8,
+    symbol: 'HNK',
+    name: 'Hanako Coin',
+    logoURL: ['/static/media/logo.2f2c75ffef00893c00a39509435f58be.svg'],
+    projectURL: 'http://animeswap.org/',
+  },
   '0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC': {
     address: '0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC',
     decimals: 6,
@@ -349,6 +357,14 @@ export const APTOS_TESTNET_CoinInfo: { [address: string]: Coin } = {
     logoURL: ['https://coinlist.animeswap.org/icons/APT.svg'],
     projectURL: 'https://aptoslabs.com/',
   },
+  '0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK': {
+    address: '0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK',
+    decimals: 8,
+    symbol: 'HNK',
+    name: 'Hanako Coin',
+    logoURL: ['/static/media/logo.2f2c75ffef00893c00a39509435f58be.svg'],
+    projectURL: 'http://animeswap.org/',
+  },
   '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::TestCoinsV1::USDT': {
     address: '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::TestCoinsV1::USDT',
     decimals: 8,
@@ -404,11 +420,11 @@ export const APTOS_DEVNET_CoinInfo: { [address: string]: Coin } = {
     logoURL: ['https://coinlist.animeswap.org/icons/APT.svg'],
     projectURL: 'https://aptoslabs.com/',
   },
-  '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::AnimeCoin::ANI': {
-    address: '0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::AnimeCoin::ANI',
+  '0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK': {
+    address: '0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK',
     decimals: 8,
-    symbol: 'ANI',
-    name: 'AnimeSwap Coin',
+    symbol: 'HNK',
+    name: 'Hanako Coin',
     logoURL: ['/static/media/logo.2f2c75ffef00893c00a39509435f58be.svg'],
     projectURL: 'http://animeswap.org/',
   },

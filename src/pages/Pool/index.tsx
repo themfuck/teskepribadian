@@ -181,12 +181,12 @@ export default function Pool() {
         poolCoinYAmount: res2[1]?.coinY,
         // @ts-ignore
         stakedLP: res.get(
-          '0x796900ebe1a1a54ff9e932f19c548f5c1af5c6e7d34965857ac2f7b1d1ab2cbf::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::AnimeCoin::ANI>'
+          '0x796900ebe1a1a54ff9e932f19c548f5c1af5c6e7d34965857ac2f7b1d1ab2cbf::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK>'
         )?.amount,
         stakeAPR: res2[1]?.apr,
         // @ts-ignore
         earnedANI: res.get(
-          '0x796900ebe1a1a54ff9e932f19c548f5c1af5c6e7d34965857ac2f7b1d1ab2cbf::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c::AnimeCoin::ANI>'
+          '0x796900ebe1a1a54ff9e932f19c548f5c1af5c6e7d34965857ac2f7b1d1ab2cbf::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK>'
         )?.pendingAni,
       })
       if (chainId === SupportedChainId.APTOS) {

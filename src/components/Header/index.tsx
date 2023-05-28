@@ -290,14 +290,14 @@ export default function Header() {
         <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
           <Trans>Swap</Trans>
         </StyledNavLink>
-        {/* <StyledNavLink
+        <StyledNavLink
           data-cy="pool-nav-link"
           id={`pool-nav-link`}
           to={'/pool'}
           className={isPoolActive ? activeClassName : undefined}
         >
           <Trans>Pool</Trans>
-        </StyledNavLink> */}
+        </StyledNavLink>
         {/* {chainId === SupportedChainId.APTOS && (
           <StyledExternalLink id={`bridge-nav-link`} href={'https://cbridge.celer.network'}>
             <Trans>Bridge</Trans>
