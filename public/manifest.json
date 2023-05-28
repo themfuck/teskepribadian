@@ -3,7 +3,7 @@
   "display": "standalone",
   "homepage_url": "https://app.suiofhanako.xyz",
   "providedBy": {
-    "name": "AnimeSwap",
+    "name": "Hanako",
     "url": "https://suiofhanako.xyz"
   },
   "icons": [
@@ -21,10 +21,10 @@
     }
   ],
   "orientation": "portrait",
-  "name": "AnimeSwap",
-  "description": "Swap or provide liquidity on the AnimeSwap Protocol",
+  "name": "Hanako",
+  "description": "Swap or provide liquidity on the Hanako Protocol",
   "iconPath": "./images/256x256_App_Icon_Black.svg",
-  "short_name": "AnimeSwap",
+  "short_name": "Hanako",
   "start_url": ".",
   "theme_color": "#8A2BE2"
 }
