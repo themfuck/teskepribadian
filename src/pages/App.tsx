@@ -126,7 +126,7 @@ export default function App() {
               <Routes>
                 <Route path="swap/:toCoin" element={<RedirectToSwap />} />
                 <Route path="swap" element={<Swap />} />
-                {/* <Route path="pool" element={<Pool />} /> */}
+                <Route path="pool" element={<Pool />} />
                 <Route path="add" element={<RedirectDuplicateTokenIds />}>
                   <Route path=":coinIdA" element={<AddLiquidity />} />
                   <Route path=":coinIdA/:coinIdB" element={<AddLiquidity />} />
