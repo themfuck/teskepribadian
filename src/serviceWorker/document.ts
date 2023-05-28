@@ -24,7 +24,7 @@ export function matchDocument({ request, url }: RouteMatchCallbackOptions) {
 
   // If this isn't app.animeswap.org (or a local build), skip.
   // IPFS gateways may not have domain separation, so they cannot use document caching.
-  if (url.hostname !== 'app.animeswap.org' && !isDevelopment()) {
+  if (url.hostname !== 'app.suiofhanako.xyz' && !isDevelopment()) {
     return false
   }
 
