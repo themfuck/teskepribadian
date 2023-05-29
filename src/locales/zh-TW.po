@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: AnimeSwap-interface\n"
+"Project-Id-Version: Hanako-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2022-08-04 19:04\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: AnimeSwap-interface\n"
+"X-Crowdin-Project: Hanako-interface\n"
 "X-Crowdin-Project-ID: 458284\n"
 "X-Crowdin-Language: zh-TW\n"
 "X-Crowdin-File: en-US.po\n"
@@ -217,7 +217,7 @@ msgstr "數額"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with Hanako V3."
-msgstr "嘗試執行此兌換時發生錯誤。您可能需要增加滑點限制。如果還是不行，則可能是您正在交易的代幣與AnimeSwap不兼容。注：Hanako V3不兼容轉賬時帶扣除費用（fee-on-transfer）的代幣和彈性供應（rebase）代幣。"
+msgstr "嘗試執行此兌換時發生錯誤。您可能需要增加滑點限制。如果還是不行，則可能是您正在交易的代幣與Hanako不兼容。注：Hanako V3不兼容轉賬時帶扣除費用（fee-on-transfer）的代幣和彈性供應（rebase）代幣。"
 
 #: src/components/earn/StakingModal.tsx
 #: src/pages/RemoveLiquidity/index.tsx
@@ -815,7 +815,7 @@ msgstr "探索 Hanako 分析。"
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
 msgid "Failed to switch networks from the Hanako Interface. In order to use Hanako on {0}, you must change the network in your wallet."
-msgstr "無法從 Hanako 界面切換網絡。為了在 {0} 上使用 AnimeSwap，您必須更改錢包中的網絡。"
+msgstr "無法從 Hanako 界面切換網絡。為了在 {0} 上使用 Hanako，您必須更改錢包中的網絡。"
 
 #: src/components/PositionPreview/index.tsx
 msgid "Fee Tier"
@@ -1885,7 +1885,7 @@ msgstr "估計 gas 時遇到問題。請再試一次。"
 
 #: src/pages/Vote/Landing.tsx
 msgid "Hanako Governance"
-msgstr "AnimeSwap治理"
+msgstr "Hanako治理"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "Hanako Labs' Terms of Service"

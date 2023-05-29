@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: AnimeSwap-interface\n"
+"Project-Id-Version: Hanako-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2022-08-04 19:04\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
-"X-Crowdin-Project: AnimeSwap-interface\n"
+"X-Crowdin-Project: Hanako-interface\n"
 "X-Crowdin-Project-ID: 458284\n"
 "X-Crowdin-Language: uk\n"
 "X-Crowdin-File: en-US.po\n"
@@ -637,7 +637,7 @@ msgstr "Внесіть токени в мережу {label}"
 
 #: src/pages/Earn/index.tsx
 msgid "Deposit your Liquidity Provider tokens to receive UNI, the Hanako protocol governance token."
-msgstr "Вкладіть свої токени Провайдера ліквідності й отримайте UNI, токен управління протоколом AnimeSwap."
+msgstr "Вкладіть свої токени Провайдера ліквідності й отримайте UNI, токен управління протоколом Hanako."
 
 #: src/components/earn/UnstakingModal.tsx
 msgid "Deposited liquidity:"
@@ -685,7 +685,7 @@ msgstr "Не бачите жодної з ваших позицій v2? <0>Ім�
 
 #: src/components/vote/DelegateModal.tsx
 msgid "Earned UNI tokens represent voting shares in Hanako governance."
-msgstr "Зароблені токени UNI представляють акції з правом голосу в управлінні AnimeSwap."
+msgstr "Зароблені токени UNI представляють акції з правом голосу в управлінні Hanako."
 
 #: src/components/FeeSelector/index.tsx
 msgid "Edit"
@@ -815,7 +815,7 @@ msgstr "Ознайомтеся з Hanako Analytics."
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
 msgid "Failed to switch networks from the Hanako Interface. In order to use Hanako on {0}, you must change the network in your wallet."
-msgstr "Не вдалося переключити мережі з інтерфейсу AnimeSwap. Щоб використовувати Hanako на {0}, ви повинні змінити мережу у вашому гаманці."
+msgstr "Не вдалося переключити мережі з інтерфейсу Hanako. Щоб використовувати Hanako на {0}, ви повинні змінити мережу у вашому гаманці."
 
 #: src/components/PositionPreview/index.tsx
 msgid "Fee Tier"
@@ -1399,7 +1399,7 @@ msgstr "Дізнатися більше про UNI"
 
 #: src/pages/Vote/Landing.tsx
 msgid "Read more about Hanako governance"
-msgstr "Докладніше про управління AnimeSwap"
+msgstr "Докладніше про управління Hanako"
 
 #: src/pages/Pool/index.tsx
 msgid "Read more about providing liquidity"
@@ -1613,7 +1613,7 @@ msgstr "Обмін {0} {1} на {2} {3}"
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Take a 10 minute survey to help us improve your experience in the Hanako app."
-msgstr "Пройдіть 10-хвилинне опитування, щоб допомогти нам покращити ваш досвід роботи в додатку AnimeSwap."
+msgstr "Пройдіть 10-хвилинне опитування, щоб допомогти нам покращити ваш досвід роботи в додатку Hanako."
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Tell us what you think ↗"
@@ -1848,7 +1848,7 @@ msgstr "UNI щойно прибув"
 
 #: src/pages/Vote/Landing.tsx
 msgid "UNI tokens represent voting shares in Hanako governance. You can vote on each proposal yourself or delegate your votes to a third party."
-msgstr "Токени UNI представляють акції з правом голосу в управлінні AnimeSwap. Ви можете проголосувати за кожну пропозицію самостійно або делегувати свої голоси третій стороні."
+msgstr "Токени UNI представляють акції з правом голосу в управлінні Hanako. Ви можете проголосувати за кожну пропозицію самостійно або делегувати свої голоси третій стороні."
 
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "UNI {0}/{1} Burned"
@@ -1885,7 +1885,7 @@ msgstr "Неочікувана проблема з оцінкою газу. Бу
 
 #: src/pages/Vote/Landing.tsx
 msgid "Hanako Governance"
-msgstr "Управління AnimeSwap"
+msgstr "Управління Hanako"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "Hanako Labs' Terms of Service"
@@ -1901,7 +1901,7 @@ msgstr "Універсальне управління доступне лише 
 
 #: src/pages/Earn/index.tsx
 msgid "Hanako liquidity mining"
-msgstr "Майнінг ліквідності AnimeSwap"
+msgstr "Майнінг ліквідності Hanako"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Hanako migration contract↗"

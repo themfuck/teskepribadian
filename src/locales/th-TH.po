@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: AnimeSwap-interface\n"
+"Project-Id-Version: Hanako-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2022-08-04 19:04\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: AnimeSwap-interface\n"
+"X-Crowdin-Project: Hanako-interface\n"
 "X-Crowdin-Project-ID: 458284\n"
 "X-Crowdin-Language: th\n"
 "X-Crowdin-File: en-US.po\n"
@@ -637,7 +637,7 @@ msgstr "ฝากโทเค็นไปยังเครือข่าย {l
 
 #: src/pages/Earn/index.tsx
 msgid "Deposit your Liquidity Provider tokens to receive UNI, the Hanako protocol governance token."
-msgstr "ฝากโทเค็นผู้ให้บริการสภาพคล่องของคุณเพื่อรับ UNI ซึ่งเป็นโทเค็นการกำกับดูแลโปรโตคอล AnimeSwap"
+msgstr "ฝากโทเค็นผู้ให้บริการสภาพคล่องของคุณเพื่อรับ UNI ซึ่งเป็นโทเค็นการกำกับดูแลโปรโตคอล Hanako"
 
 #: src/components/earn/UnstakingModal.tsx
 msgid "Deposited liquidity:"
@@ -685,7 +685,7 @@ msgstr "ไม่เห็นหนึ่งในตำแหน่ง v2 ข�
 
 #: src/components/vote/DelegateModal.tsx
 msgid "Earned UNI tokens represent voting shares in Hanako governance."
-msgstr "โทเค็น UNI ที่ได้รับแสดงถึงการลงคะแนนเสียงในการกำกับดูแล AnimeSwap"
+msgstr "โทเค็น UNI ที่ได้รับแสดงถึงการลงคะแนนเสียงในการกำกับดูแล Hanako"
 
 #: src/components/FeeSelector/index.tsx
 msgid "Edit"
@@ -1399,7 +1399,7 @@ msgstr "อ่านเพิ่มเติมเกี่ยวกับ UNI"
 
 #: src/pages/Vote/Landing.tsx
 msgid "Read more about Hanako governance"
-msgstr "อ่านเพิ่มเติมเกี่ยวกับการกำกับดูแล AnimeSwap"
+msgstr "อ่านเพิ่มเติมเกี่ยวกับการกำกับดูแล Hanako"
 
 #: src/pages/Pool/index.tsx
 msgid "Read more about providing liquidity"
@@ -1613,7 +1613,7 @@ msgstr "สลับ {0} {1} เป็น {2} {3}"
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Take a 10 minute survey to help us improve your experience in the Hanako app."
-msgstr "ทำแบบสำรวจ 10 นาทีเพื่อช่วยเราปรับปรุงประสบการณ์ของคุณในแอป AnimeSwap"
+msgstr "ทำแบบสำรวจ 10 นาทีเพื่อช่วยเราปรับปรุงประสบการณ์ของคุณในแอป Hanako"
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Tell us what you think ↗"
@@ -1885,7 +1885,7 @@ msgstr "ปัญหาที่ไม่คาดคิดกับการป
 
 #: src/pages/Vote/Landing.tsx
 msgid "Hanako Governance"
-msgstr "การกำกับดูแล AnimeSwap"
+msgstr "การกำกับดูแล Hanako"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "Hanako Labs' Terms of Service"
@@ -1901,11 +1901,11 @@ msgstr "การกำกับดูแล Hanako ใช้ได้เฉพ�
 
 #: src/pages/Earn/index.tsx
 msgid "Hanako liquidity mining"
-msgstr "การขุดสภาพคล่อง AnimeSwap"
+msgstr "การขุดสภาพคล่อง Hanako"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Hanako migration contract↗"
-msgstr "สัญญาการโยกย้าย AnimeSwap↗"
+msgstr "สัญญาการโยกย้าย Hanako↗"
 
 #: src/components/SearchModal/TokenImportCard.tsx
 msgid "Unknown Source"

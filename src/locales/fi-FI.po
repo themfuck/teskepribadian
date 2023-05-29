@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: AnimeSwap-interface\n"
+"Project-Id-Version: Hanako-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2022-08-04 19:04\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: AnimeSwap-interface\n"
+"X-Crowdin-Project: Hanako-interface\n"
 "X-Crowdin-Project-ID: 458284\n"
 "X-Crowdin-Language: fi\n"
 "X-Crowdin-File: en-US.po\n"
@@ -205,7 +205,7 @@ msgstr "Salli korkean hintavaikutuksen kaupat ja ohita vahvistusnäyttö. Käyt�
 
 #: src/pages/Swap/index.tsx
 msgid "Allow the Hanako Protocol to use your {0}"
-msgstr "Salli AnimeSwap-protokollan käyttää {0}"
+msgstr "Salli Hanako-protokollan käyttää {0}"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Allowed"
@@ -270,7 +270,7 @@ msgstr "Oletko varma?"
 
 #: src/components/claim/ClaimModal.tsx
 msgid "As a member of the Hanako community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
-msgstr "AnimeSwap-yhteisön jäsenenä voit lunastaa UNI-rahakkeita käytettäväksi äänestämiseen ja hallintoon.<0/><1/><2>Lue lisää UNIsta</2>"
+msgstr "Hanako-yhteisön jäsenenä voit lunastaa UNI-rahakkeita käytettäväksi äänestämiseen ja hallintoon.<0/><1/><2>Lue lisää UNIsta</2>"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "At least {0} {1} and {2} {3} will be refunded to your wallet due to selected price range."
@@ -637,7 +637,7 @@ msgstr "Talleta tokeneja {label} verkkoon."
 
 #: src/pages/Earn/index.tsx
 msgid "Deposit your Liquidity Provider tokens to receive UNI, the Hanako protocol governance token."
-msgstr "Talleta likviditeetin tarjoajan rahakkeesi saadaksesi UNI-rahakkeita, AnimeSwap-protokollan hallintorahakkeita."
+msgstr "Talleta likviditeetin tarjoajan rahakkeesi saadaksesi UNI-rahakkeita, Hanako-protokollan hallintorahakkeita."
 
 #: src/components/earn/UnstakingModal.tsx
 msgid "Deposited liquidity:"
@@ -685,7 +685,7 @@ msgstr "Etkö näe yhtä v2-positiostasi? <0>Tuo se.</0>"
 
 #: src/components/vote/DelegateModal.tsx
 msgid "Earned UNI tokens represent voting shares in Hanako governance."
-msgstr "Ansaitut UNI-rahakkeet edustavat äänioikeusosakkeita AnimeSwapin hallinnossa."
+msgstr "Ansaitut UNI-rahakkeet edustavat äänioikeusosakkeita Hanakoin hallinnossa."
 
 #: src/components/FeeSelector/index.tsx
 msgid "Edit"
@@ -815,7 +815,7 @@ msgstr "Tutustu Hanako Analyticsiin."
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
 msgid "Failed to switch networks from the Hanako Interface. In order to use Hanako on {0}, you must change the network in your wallet."
-msgstr "Verkkojen vaihtaminen AnimeSwap-liittymästä epäonnistui. Jotta voit käyttää AnimeSwapia {0}, sinun on vaihdettava verkko lompakossasi."
+msgstr "Verkkojen vaihtaminen Hanako-liittymästä epäonnistui. Jotta voit käyttää Hanakoia {0}, sinun on vaihdettava verkko lompakossasi."
 
 #: src/components/PositionPreview/index.tsx
 msgid "Fee Tier"
@@ -1399,7 +1399,7 @@ msgstr "Lue lisää UNIsta"
 
 #: src/pages/Vote/Landing.tsx
 msgid "Read more about Hanako governance"
-msgstr "Lue lisää AnimeSwapin hallinnosta"
+msgstr "Lue lisää Hanakoin hallinnosta"
 
 #: src/pages/Pool/index.tsx
 msgid "Read more about providing liquidity"
@@ -1613,7 +1613,7 @@ msgstr "Vaihdetaan {0} {1} kohteeseen {2} {3}"
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Take a 10 minute survey to help us improve your experience in the Hanako app."
-msgstr "Vastaa 10 minuutin kyselyyn, jonka avulla voimme parantaa käyttökokemustasi AnimeSwap-sovelluksessa."
+msgstr "Vastaa 10 minuutin kyselyyn, jonka avulla voimme parantaa käyttökokemustasi Hanako-sovelluksessa."
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Tell us what you think ↗"
@@ -1621,7 +1621,7 @@ msgstr "Kerro meille mielipiteesi ↗"
 
 #: src/components/Popups/ClaimPopup.tsx
 msgid "Thanks for being part of the Hanako community <0/>"
-msgstr "Kiitos, että olet osa AnimeSwap-yhteisöä <0/>"
+msgstr "Kiitos, että olet osa Hanako-yhteisöä <0/>"
 
 #: src/components/FeeSelector/index.tsx
 msgid "The % you will earn in fees."
@@ -1629,7 +1629,7 @@ msgstr "% Ansaitset palkkioita."
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "The Hanako invariant x*y=k was not satisfied by the swap. This usually means one of the tokens you are swapping incorporates custom behavior on transfer."
-msgstr "Vaihto ei tyydyttänyt AnimeSwap-invarianttia x*y=k. Tämä tarkoittaa yleensä sitä, että yksi vaihtamistasi rahakkeista käyttäytyy mukautetusti siirron yhteydessä."
+msgstr "Vaihto ei tyydyttänyt Hanako-invarianttia x*y=k. Tämä tarkoittaa yleensä sitä, että yksi vaihtamistasi rahakkeista käyttäytyy mukautetusti siirron yhteydessä."
 
 #: src/components/swap/AdvancedSwapDetails.tsx
 msgid "The amount you expect to receive at the current market price. You may receive less or more if the market price changes while your transaction is pending."
@@ -1848,7 +1848,7 @@ msgstr "UNI on saapunut"
 
 #: src/pages/Vote/Landing.tsx
 msgid "UNI tokens represent voting shares in Hanako governance. You can vote on each proposal yourself or delegate your votes to a third party."
-msgstr "UNI-rahakkeet edustavat AnimeSwapin hallinnon äänestysosakkeita. Voit äänestää jokaisesta ehdotuksesta itse tai delegoida äänesi kolmannelle osapuolelle."
+msgstr "UNI-rahakkeet edustavat Hanakoin hallinnon äänestysosakkeita. Voit äänestää jokaisesta ehdotuksesta itse tai delegoida äänesi kolmannelle osapuolelle."
 
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "UNI {0}/{1} Burned"
@@ -1885,7 +1885,7 @@ msgstr "Odottamaton ongelma kaasun arvioinnissa. Yritä uudelleen."
 
 #: src/pages/Vote/Landing.tsx
 msgid "Hanako Governance"
-msgstr "AnimeSwapin hallinto"
+msgstr "Hanakoin hallinto"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "Hanako Labs' Terms of Service"
@@ -1897,15 +1897,15 @@ msgstr "Hanako käytettävissä: <0>{0}</0>"
 
 #: src/components/vote/ProposalEmptyState.tsx
 msgid "Hanako governance is only available on Layer 1. Switch your network to Aptos Mainnet to view Proposals and Vote."
-msgstr "AnimeSwap-hallinta on käytettävissä vain kerroksessa 1. Vaihda verkko Aptos Mainnet -palveluun nähdäksesi ehdotuksia ja äänestystä."
+msgstr "Hanako-hallinta on käytettävissä vain kerroksessa 1. Vaihda verkko Aptos Mainnet -palveluun nähdäksesi ehdotuksia ja äänestystä."
 
 #: src/pages/Earn/index.tsx
 msgid "Hanako liquidity mining"
-msgstr "AnimeSwapin likviditeetin louhinta"
+msgstr "Hanakoin likviditeetin louhinta"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Hanako migration contract↗"
-msgstr "AnimeSwapin siirtosopimus ↗"
+msgstr "Hanakoin siirtosopimus ↗"
 
 #: src/components/SearchModal/TokenImportCard.tsx
 msgid "Unknown Source"
@@ -2177,7 +2177,7 @@ msgstr "Sinun on yhdistettävä tili."
 
 #: src/pages/Swap/index.tsx
 msgid "You must give the Hanako smart contracts permission to use your {0}. You only have to do this once per token."
-msgstr "Sinun täytyy antaa AnimeSwapin älykkäille sopimuksille lupa käyttää {0}. Sinun täytyy tehdä tämä vain kerran per rahake."
+msgstr "Sinun täytyy antaa Hanakoin älykkäille sopimuksille lupa käyttää {0}. Sinun täytyy tehdä tämä vain kerran per rahake."
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You must have {formattedProposalThreshold} votes to submit a proposal"

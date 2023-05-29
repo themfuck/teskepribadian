@@ -357,8 +357,8 @@ export default function FarmCard(farmCardProps: FarmCardProps) {
             </FixedHeightRow>
             <FixedHeightRow>
               <RowFixed>
-                <ThemedText.DeprecatedMain fontSize={16}>Earned ANI</ThemedText.DeprecatedMain>
-                <QuestionHelper text={`Earned since your last action. Staked ANI include Earned ANI.`} />
+                <ThemedText.DeprecatedMain fontSize={16}>Earned HNK</ThemedText.DeprecatedMain>
+                <QuestionHelper text={`Earned since your last action. Staked HNK include Earned HNK.`} />
               </RowFixed>
               <Column style={{ alignItems: 'flex-end' }}>
                 <Text fontSize={16} fontWeight={500}>
@@ -426,7 +426,7 @@ export default function FarmCard(farmCardProps: FarmCardProps) {
                     onRegisterANI()
                   }}
                 >
-                  Register ANI
+                  Register HNK
                 </ButtonGreen>
               )}
             </RowBetween>

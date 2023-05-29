@@ -22,9 +22,9 @@ export function matchDocument({ request, url }: RouteMatchCallbackOptions) {
     return false
   }
 
-  // If this isn't app.hanakonfts.xyz.org (or a local build), skip.
+  // If this isn't app.animeswap.org (or a local build), skip.
   // IPFS gateways may not have domain separation, so they cannot use document caching.
-  if (url.hostname !== 'app.suiofhanako.xyz' && !isDevelopment()) {
+  if (url.hostname !== 'app.animeswap.org' && !isDevelopment()) {
     return false
   }
 

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: AnimeSwap-interface\n"
+"Project-Id-Version: Hanako-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2022-08-04 19:04\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Crowdin-Project: AnimeSwap-interface\n"
+"X-Crowdin-Project: Hanako-interface\n"
 "X-Crowdin-Project-ID: 458284\n"
 "X-Crowdin-Language: sr\n"
 "X-Crowdin-File: en-US.po\n"
@@ -637,7 +637,7 @@ msgstr "Депонујте токене на мрежу {label}."
 
 #: src/pages/Earn/index.tsx
 msgid "Deposit your Liquidity Provider tokens to receive UNI, the Hanako protocol governance token."
-msgstr "Положите своје токене Добављача ликвидности да бисте добили УНИ, токен управљања протоколом AnimeSwap."
+msgstr "Положите своје токене Добављача ликвидности да бисте добили УНИ, токен управљања протоколом Hanako."
 
 #: src/components/earn/UnstakingModal.tsx
 msgid "Deposited liquidity:"
@@ -685,7 +685,7 @@ msgstr "Не видите ниједну од ваших V2 позиција? <0
 
 #: src/components/vote/DelegateModal.tsx
 msgid "Earned UNI tokens represent voting shares in Hanako governance."
-msgstr "Зарађени UNI токени представљају акције са правом гласа у управљању AnimeSwap-ом."
+msgstr "Зарађени UNI токени представљају акције са правом гласа у управљању Hanako-ом."
 
 #: src/components/FeeSelector/index.tsx
 msgid "Edit"
@@ -1399,7 +1399,7 @@ msgstr "Прочитајте више о UNI-ју"
 
 #: src/pages/Vote/Landing.tsx
 msgid "Read more about Hanako governance"
-msgstr "Прочитајте више о управљању AnimeSwap-ом"
+msgstr "Прочитајте више о управљању Hanako-ом"
 
 #: src/pages/Pool/index.tsx
 msgid "Read more about providing liquidity"
@@ -1848,7 +1848,7 @@ msgstr "UNI је стигао"
 
 #: src/pages/Vote/Landing.tsx
 msgid "UNI tokens represent voting shares in Hanako governance. You can vote on each proposal yourself or delegate your votes to a third party."
-msgstr "UNI токени представљају акције са правом гласа у управљању AnimeSwap-ом. Можете сами гласати за сваки предлог или пренети своје гласове трећој страни."
+msgstr "UNI токени представљају акције са правом гласа у управљању Hanako-ом. Можете сами гласати за сваки предлог или пренети своје гласове трећој страни."
 
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "UNI {0}/{1} Burned"

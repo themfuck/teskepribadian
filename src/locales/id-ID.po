@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: AnimeSwap-interface\n"
+"Project-Id-Version: Hanako-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2022-08-04 20:04\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: AnimeSwap-interface\n"
+"X-Crowdin-Project: Hanako-interface\n"
 "X-Crowdin-Project-ID: 458284\n"
 "X-Crowdin-Language: id\n"
 "X-Crowdin-File: en-US.po\n"
@@ -270,7 +270,7 @@ msgstr "Anda yakin?"
 
 #: src/components/claim/ClaimModal.tsx
 msgid "As a member of the Hanako community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
-msgstr "Sebagai anggota komunitas AnimeSwap, Anda dapat mengklaim UNI untuk digunakan dalam voting suara dan pengaturan.<0/><1/><2>Baca selengkapnya tentang UNI</2>"
+msgstr "Sebagai anggota komunitas Hanako, Anda dapat mengklaim UNI untuk digunakan dalam voting suara dan pengaturan.<0/><1/><2>Baca selengkapnya tentang UNI</2>"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "At least {0} {1} and {2} {3} will be refunded to your wallet due to selected price range."
@@ -334,7 +334,7 @@ msgstr "Dengan menambahkan daftar ini, Anda secara implisit mempercayai bahwa da
 
 #: src/components/WalletModal/index.tsx
 msgid "By connecting a wallet, you agree to Hanako Labs’ <0>Terms of Service</0> and acknowledge that you have read and understand the Hanako <1>Protocol Disclaimer</1>."
-msgstr "Dengan menghubungkan dompet, Anda menyetujui <0>Syarat Layanan</0> Hanako Labs' dan mengakui bahwa Anda telah membaca dan memahami <1>Penafian Protokol</1> AnimeSwap."
+msgstr "Dengan menghubungkan dompet, Anda menyetujui <0>Syarat Layanan</0> Hanako Labs' dan mengakui bahwa Anda telah membaca dan memahami <1>Penafian Protokol</1> Hanako."
 
 #: src/pages/Vote/styled.tsx
 msgid "Canceled"
@@ -637,7 +637,7 @@ msgstr "Setor token ke jaringan {label}"
 
 #: src/pages/Earn/index.tsx
 msgid "Deposit your Liquidity Provider tokens to receive UNI, the Hanako protocol governance token."
-msgstr "Setor token Penyedia Likuiditas Anda untuk menerima UNI, yakni token pengaturan protokol AnimeSwap."
+msgstr "Setor token Penyedia Likuiditas Anda untuk menerima UNI, yakni token pengaturan protokol Hanako."
 
 #: src/components/earn/UnstakingModal.tsx
 msgid "Deposited liquidity:"
@@ -685,7 +685,7 @@ msgstr "Tidak melihat salah satu posisi v2 Anda? <0> Impor.</0>"
 
 #: src/components/vote/DelegateModal.tsx
 msgid "Earned UNI tokens represent voting shares in Hanako governance."
-msgstr "Token UNI yang diperoleh mewakili hak suara dalam pengaturan AnimeSwap."
+msgstr "Token UNI yang diperoleh mewakili hak suara dalam pengaturan Hanako."
 
 #: src/components/FeeSelector/index.tsx
 msgid "Edit"
@@ -815,7 +815,7 @@ msgstr "Jelajahi Hanako Analytics."
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
 msgid "Failed to switch networks from the Hanako Interface. In order to use Hanako on {0}, you must change the network in your wallet."
-msgstr "Gagal berpindah jaringan dari Antarmuka AnimeSwap. Untuk menggunakan Hanako pada {0}, Anda harus mengubah jaringan di dompet Anda."
+msgstr "Gagal berpindah jaringan dari Antarmuka Hanako. Untuk menggunakan Hanako pada {0}, Anda harus mengubah jaringan di dompet Anda."
 
 #: src/components/PositionPreview/index.tsx
 msgid "Fee Tier"
@@ -1399,7 +1399,7 @@ msgstr "Baca selengkapnya tentang UNI"
 
 #: src/pages/Vote/Landing.tsx
 msgid "Read more about Hanako governance"
-msgstr "Baca selengkapnya tentang pengaturan AnimeSwap"
+msgstr "Baca selengkapnya tentang pengaturan Hanako"
 
 #: src/pages/Pool/index.tsx
 msgid "Read more about providing liquidity"
@@ -1613,7 +1613,7 @@ msgstr "Menukar {0} {1} untuk {2} {3}"
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Take a 10 minute survey to help us improve your experience in the Hanako app."
-msgstr "Ikuti survei 10 menit untuk membantu kami meningkatkan pengalaman Anda di aplikasi AnimeSwap."
+msgstr "Ikuti survei 10 menit untuk membantu kami meningkatkan pengalaman Anda di aplikasi Hanako."
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Tell us what you think ↗"
@@ -1848,7 +1848,7 @@ msgstr "UNI telah sampai"
 
 #: src/pages/Vote/Landing.tsx
 msgid "UNI tokens represent voting shares in Hanako governance. You can vote on each proposal yourself or delegate your votes to a third party."
-msgstr "Token UNI menunjukkan hak suara dalam pengaturan AnimeSwap. Anda dapat memberikan suara secara langsung pada tiap usulan atau mendelegasikannya kepada pihak ketiga."
+msgstr "Token UNI menunjukkan hak suara dalam pengaturan Hanako. Anda dapat memberikan suara secara langsung pada tiap usulan atau mendelegasikannya kepada pihak ketiga."
 
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "UNI {0}/{1} Burned"
@@ -1885,7 +1885,7 @@ msgstr "Masalah tak terduga dengan memperkirakan gas. Silakan coba lagi."
 
 #: src/pages/Vote/Landing.tsx
 msgid "Hanako Governance"
-msgstr "Tata Kelola AnimeSwap"
+msgstr "Tata Kelola Hanako"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "Hanako Labs' Terms of Service"
@@ -1901,11 +1901,11 @@ msgstr "Tata kelola Hanako hanya tersedia di Layer 1. Alihkan jaringan Anda ke A
 
 #: src/pages/Earn/index.tsx
 msgid "Hanako liquidity mining"
-msgstr "Penambangan likuiditas AnimeSwap"
+msgstr "Penambangan likuiditas Hanako"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Hanako migration contract↗"
-msgstr "Kontrak migrasi AnimeSwap↗"
+msgstr "Kontrak migrasi Hanako↗"
 
 #: src/components/SearchModal/TokenImportCard.tsx
 msgid "Unknown Source"

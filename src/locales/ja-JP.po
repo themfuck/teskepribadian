@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: AnimeSwap-interface\n"
+"Project-Id-Version: Hanako-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2022-08-04 19:04\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: AnimeSwap-interface\n"
+"X-Crowdin-Project: Hanako-interface\n"
 "X-Crowdin-Project-ID: 458284\n"
 "X-Crowdin-Language: ja\n"
 "X-Crowdin-File: en-US.po\n"
@@ -205,7 +205,7 @@ msgstr "価格への大きな影響がある取引を許可し、確認画面を
 
 #: src/pages/Swap/index.tsx
 msgid "Allow the Hanako Protocol to use your {0}"
-msgstr "{0} の使用をAnimeSwapに許可する"
+msgstr "{0} の使用をHanakoに許可する"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Allowed"
@@ -217,7 +217,7 @@ msgstr "数量"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with Hanako V3."
-msgstr "スワップ実行時にエラーが発生しました。スリッページの許容範囲を広げる必要がある可能性があります。それでも上手くいかない場合、取引しているトークンとの互換性がない可能性があります。注：転送時に手数料が発生するトークンおよびリベースするトークンは、AnimeSwapV3と互換性がありません。"
+msgstr "スワップ実行時にエラーが発生しました。スリッページの許容範囲を広げる必要がある可能性があります。それでも上手くいかない場合、取引しているトークンとの互換性がない可能性があります。注：転送時に手数料が発生するトークンおよびリベースするトークンは、HanakoV3と互換性がありません。"
 
 #: src/components/earn/StakingModal.tsx
 #: src/pages/RemoveLiquidity/index.tsx
@@ -270,7 +270,7 @@ msgstr "本当によろしいですか？"
 
 #: src/components/claim/ClaimModal.tsx
 msgid "As a member of the Hanako community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
-msgstr "AnimeSwapコミュニティのメンバーとして、投票とガバナンスのためにUNIを使用できます。<0/><1/><2>UNIについてもっと見る</2>"
+msgstr "Hanakoコミュニティのメンバーとして、投票とガバナンスのためにUNIを使用できます。<0/><1/><2>UNIについてもっと見る</2>"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "At least {0} {1} and {2} {3} will be refunded to your wallet due to selected price range."
@@ -334,7 +334,7 @@ msgstr "このリストを追加することで、データが正しいことを
 
 #: src/components/WalletModal/index.tsx
 msgid "By connecting a wallet, you agree to Hanako Labs’ <0>Terms of Service</0> and acknowledge that you have read and understand the Hanako <1>Protocol Disclaimer</1>."
-msgstr "ウォレットを接続することにより、あなたはHanako Labsのに <0>サービス規約</0>に同意し、あなたがAnimeSwap<1>プロトコル免責事項</1>を読み、理解していることに同意するものとします。"
+msgstr "ウォレットを接続することにより、あなたはHanako Labsのに <0>サービス規約</0>に同意し、あなたがHanako<1>プロトコル免責事項</1>を読み、理解していることに同意するものとします。"
 
 #: src/pages/Vote/styled.tsx
 msgid "Canceled"
@@ -637,7 +637,7 @@ msgstr "{label} ネットワークにトークンを預け入れます"
 
 #: src/pages/Earn/index.tsx
 msgid "Deposit your Liquidity Provider tokens to receive UNI, the Hanako protocol governance token."
-msgstr "流動性トークンを預けて、AnimeSwapプロトコルのガバナンストークンであるUNIを受け取ります。"
+msgstr "流動性トークンを預けて、HanakoプロトコルのガバナンストークンであるUNIを受け取ります。"
 
 #: src/components/earn/UnstakingModal.tsx
 msgid "Deposited liquidity:"
@@ -685,7 +685,7 @@ msgstr "V2の流動性が表示されない場合、該当のトークンを<0>�
 
 #: src/components/vote/DelegateModal.tsx
 msgid "Earned UNI tokens represent voting shares in Hanako governance."
-msgstr "保有するUNIトークンは、AnimeSwapのガバナンスにおける投票権を表します。"
+msgstr "保有するUNIトークンは、Hanakoのガバナンスにおける投票権を表します。"
 
 #: src/components/FeeSelector/index.tsx
 msgid "Edit"
@@ -815,7 +815,7 @@ msgstr "Hanako Analyticsをご覧ください。"
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
 msgid "Failed to switch networks from the Hanako Interface. In order to use Hanako on {0}, you must change the network in your wallet."
-msgstr "AnimeSwapのインターフェイスからのネットワークの切り替えに失敗しました。 {0} でAnimeSwapを使用するには、ウォレットのネットワークを変更する必要があります。"
+msgstr "Hanakoのインターフェイスからのネットワークの切り替えに失敗しました。 {0} でHanakoを使用するには、ウォレットのネットワークを変更する必要があります。"
 
 #: src/components/PositionPreview/index.tsx
 msgid "Fee Tier"
@@ -1399,7 +1399,7 @@ msgstr "UNIについてもっと見る"
 
 #: src/pages/Vote/Landing.tsx
 msgid "Read more about Hanako governance"
-msgstr "AnimeSwapガバナンスについてもっと見る"
+msgstr "Hanakoガバナンスについてもっと見る"
 
 #: src/pages/Pool/index.tsx
 msgid "Read more about providing liquidity"
@@ -1613,7 +1613,7 @@ msgstr "{0} {1} を {2} {3} にスワップ中"
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Take a 10 minute survey to help us improve your experience in the Hanako app."
-msgstr "AnimeSwapアプリのエクスペリエンスを向上させるために、10分間のアンケートに回答してください。"
+msgstr "Hanakoアプリのエクスペリエンスを向上させるために、10分間のアンケートに回答してください。"
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Tell us what you think ↗"
@@ -1621,7 +1621,7 @@ msgstr "ご意見をお聞かせください↗"
 
 #: src/components/Popups/ClaimPopup.tsx
 msgid "Thanks for being part of the Hanako community <0/>"
-msgstr "AnimeSwapコミュニティにご参加いただきありがとうございます <0/>"
+msgstr "Hanakoコミュニティにご参加いただきありがとうございます <0/>"
 
 #: src/components/FeeSelector/index.tsx
 msgid "The % you will earn in fees."
@@ -1629,7 +1629,7 @@ msgstr "設定する手数料率"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "The Hanako invariant x*y=k was not satisfied by the swap. This usually means one of the tokens you are swapping incorporates custom behavior on transfer."
-msgstr "AnimeSwap不変式 x * y = kはスワップで満たされませんでした。これは通常、スワップするトークンの1つが転送時のカスタム動作を組み込んでいることを意味します。"
+msgstr "Hanako不変式 x * y = kはスワップで満たされませんでした。これは通常、スワップするトークンの1つが転送時のカスタム動作を組み込んでいることを意味します。"
 
 #: src/components/swap/AdvancedSwapDetails.tsx
 msgid "The amount you expect to receive at the current market price. You may receive less or more if the market price changes while your transaction is pending."
@@ -1701,7 +1701,7 @@ msgstr "購入するトークンを転送できません。購入するトーク
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Hanako V3."
-msgstr "購入するトークンを転送できません。購入するトークンに問題がある可能性があります。注：転送時に手数料が発生するトークンおよびリベースするトークンは、AnimeSwapV3と互換性がありません。"
+msgstr "購入するトークンを転送できません。購入するトークンに問題がある可能性があります。注：転送時に手数料が発生するトークンおよびリベースするトークンは、HanakoV3と互換性がありません。"
 
 #: src/components/Badge/RangeBadge.tsx
 msgid "The price of this pool is outside of your selected range. Your position is not currently earning fees."
@@ -1753,7 +1753,7 @@ msgstr "本ツールで {0} の流動性をV3に安全に移行します。こ�
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Hanako V3."
-msgstr "価格変動により、この取引は成功しません。スリッページの許容範囲を広げてみてください。注：転送時に手数料が発生するトークンおよびリベーストークンは、AnimeSwapV3と互換性がありません。"
+msgstr "価格変動により、この取引は成功しません。スリッページの許容範囲を広げてみてください。注：転送時に手数料が発生するトークンおよびリベーストークンは、HanakoV3と互換性がありません。"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance."
@@ -1848,7 +1848,7 @@ msgstr "UNIの登場"
 
 #: src/pages/Vote/Landing.tsx
 msgid "UNI tokens represent voting shares in Hanako governance. You can vote on each proposal yourself or delegate your votes to a third party."
-msgstr "UNIトークンはAnimeSwapガバナンスにおける投票権を表します。各提案に対して自分で投票するか、もしくは第三者に投票を委任することができます。"
+msgstr "UNIトークンはHanakoガバナンスにおける投票権を表します。各提案に対して自分で投票するか、もしくは第三者に投票を委任することができます。"
 
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "UNI {0}/{1} Burned"
@@ -1885,11 +1885,11 @@ msgstr "ガスの見積もりに関する予期しない問題。もう一度や
 
 #: src/pages/Vote/Landing.tsx
 msgid "Hanako Governance"
-msgstr "AnimeSwapのガバナンス"
+msgstr "Hanakoのガバナンス"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "Hanako Labs' Terms of Service"
-msgstr "AnimeSwapLabsの利用規約"
+msgstr "HanakoLabsの利用規約"
 
 #: src/components/SwitchLocaleLink/index.tsx
 msgid "Hanako available in: <0>{0}</0>"
@@ -1897,15 +1897,15 @@ msgstr "利用可能言語: <0>{0}</0>"
 
 #: src/components/vote/ProposalEmptyState.tsx
 msgid "Hanako governance is only available on Layer 1. Switch your network to Aptos Mainnet to view Proposals and Vote."
-msgstr "AnimeSwapのガバナンスは、レイヤー1でのみ使用できます。提案と投票を表示するために、ネットワークをAptosメインネットに切り替えて下さい。"
+msgstr "Hanakoのガバナンスは、レイヤー1でのみ使用できます。提案と投票を表示するために、ネットワークをAptosメインネットに切り替えて下さい。"
 
 #: src/pages/Earn/index.tsx
 msgid "Hanako liquidity mining"
-msgstr "AnimeSwap流動性マイニング"
+msgstr "Hanako流動性マイニング"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Hanako migration contract↗"
-msgstr "AnimeSwap移行コントラクト↗"
+msgstr "Hanako移行コントラクト↗"
 
 #: src/components/SearchModal/TokenImportCard.tsx
 msgid "Unknown Source"
@@ -1913,7 +1913,7 @@ msgstr "不明なソース"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Hanako V3."
-msgstr "不明なエラー{0}。スリッページの許容範囲を広げてみてください。注：転送時に手数料が発生するトークンおよびリベーストークンは、AnimeSwapV3と互換性がありません。"
+msgstr "不明なエラー{0}。スリッページの許容範囲を広げてみてください。注：転送時に手数料が発生するトークンおよびリベーストークンは、HanakoV3と互換性がありません。"
 
 #: src/pages/Vote/Landing.tsx
 #: src/pages/Vote/VotePage.tsx
@@ -2177,7 +2177,7 @@ msgstr "アカウントに接続してください。"
 
 #: src/pages/Swap/index.tsx
 msgid "You must give the Hanako smart contracts permission to use your {0}. You only have to do this once per token."
-msgstr "{0}を使用するには、AnimeSwapスマートコントラクトに許可を与える必要があります。トークンごとに1回だけ行う必要があります。"
+msgstr "{0}を使用するには、Hanakoスマートコントラクトに許可を与える必要があります。トークンごとに1回だけ行う必要があります。"
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You must have {formattedProposalThreshold} votes to submit a proposal"

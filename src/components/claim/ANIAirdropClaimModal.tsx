@@ -104,18 +104,18 @@ export default function ANIAirdropClaimModal({ isOpen, onDismiss }: { isOpen: bo
           <AutoColumn gap="md" style={{ padding: '1rem', paddingTop: '0', paddingBottom: '0' }} justify="start">
             <ThemedText.DeprecatedBody fontWeight={400}>
               1.
-              <ExternalLink href="https://github.com/AnimeSwap/airdrop/blob/main/README.md" target="_blank">
-                <span style={{ color: '#b15bff', fontWeight: '800' }}> ANI</span> Airdrop Rules and Lists
+              <ExternalLink href="https://github.com/suiofhanako/airdrop/blob/main/README.md" target="_blank">
+                <span style={{ color: '#b15bff', fontWeight: '800' }}> HNK</span> Airdrop Rules and Lists
               </ExternalLink>
             </ThemedText.DeprecatedBody>
             <ThemedText.DeprecatedBody fontWeight={400}>
               2.
               <ExternalLink href="https://docs.suiofhanako.xyz/docs/tutorial/Tokenomics" target="_blank">
-                <span style={{ color: '#b15bff', fontWeight: '800' }}> ANI</span> Tokenomic
+                <span style={{ color: '#b15bff', fontWeight: '800' }}> HNK</span> Tokenomic
               </ExternalLink>
             </ThemedText.DeprecatedBody>
             <ThemedText.DeprecatedBody fontWeight={400}>
-              3. Unclaimed <span style={{ color: '#b15bff', fontWeight: '800' }}>ANI</span> will be burned at{' '}
+              3. Unclaimed <span style={{ color: '#b15bff', fontWeight: '800' }}>HNK</span> will be burned at{' '}
               <span style={{ color: 'red', fontWeight: '800' }}>December 9th 08:00 UTC</span>
             </ThemedText.DeprecatedBody>
             {account && (

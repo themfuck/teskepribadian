@@ -71,6 +71,16 @@ export default function Manage({
         </RowBetween>
       </PaddedColumn>
       <Separator />
+      {/* <PaddedColumn style={{ paddingBottom: 0 }}>
+        <ToggleWrapper>
+          <ToggleOption onClick={() => setShowLists(!showLists)} active={showLists}>
+            <Trans>Lists</Trans>
+          </ToggleOption>
+          <ToggleOption onClick={() => setShowLists(!showLists)} active={!showLists}>
+            <Trans>Tokens</Trans>
+          </ToggleOption>
+        </ToggleWrapper>
+      </PaddedColumn> */}
       {showLists ? (
         <ManageLists setModalView={setModalView} setImportList={setImportList} setListUrl={setListUrl} />
       ) : (

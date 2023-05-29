@@ -174,17 +174,6 @@ export default function Explore() {
       suiPreparePoolDate()
     }
   }, [])
-
-  // if (isSuiChain(chainId)) {
-  //   return (
-  //     <>
-  //       <ChartContainer>
-  //         <center>Sui Chart Coming Soon...</center>
-  //       </ChartContainer>
-  //     </>
-  //   )
-  // }
-
   if (isSuiChain(chainId)) {
     return (
       <ChartContainer>

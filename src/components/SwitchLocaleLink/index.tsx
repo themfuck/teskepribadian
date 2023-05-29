@@ -39,6 +39,7 @@ export function SwitchLocaleLink() {
   return (
     <Container>
       <Trans>
+        Hanako available in:{' '}
         <StyledInternalLink onClick={onClick} to={to}>
           {LOCALE_LABEL[targetLocale]}
         </StyledInternalLink>

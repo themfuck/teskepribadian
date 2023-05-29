@@ -186,7 +186,7 @@ export default function Pool() {
         stakeAPR: res2[1]?.apr,
         // @ts-ignore
         earnedANI: res.get(
-          '0x796900ebe1a1a54ff9e932f19c548f5c1af5c6e7d34965857ac2f7b1d1ab2cbf::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNK>'
+          '0x796900ebe1a1a54ff9e932f19c548f5c1af5c6e7d34965857ac2f7b1d1ab2cbf::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0x7e8cbbf760a9c87d1f937083a4149667fd405934a5c3c15e535cd15de943c23e::hnk::HNKs>'
         )?.pendingAni,
       })
       if (chainId === SupportedChainId.APTOS) {
@@ -273,74 +273,6 @@ export default function Pool() {
   return (
     <>
       <PageWrapper>
-        {showFarm && (
-          <AutoColumn gap="lg" justify="center" style={{ marginBottom: '2rem' }}>
-            <AutoColumn gap="md" style={{ width: '100%' }}>
-              <TitleRow style={{ marginTop: '0.5rem' }} padding={'0'}>
-                <ThemedText.DeprecatedMediumHeader style={{ marginTop: '0rem', justifySelf: 'flex-start' }}>
-                  Stake and Farms
-                </ThemedText.DeprecatedMediumHeader>
-              </TitleRow>
-              <AutoRow gap="8px" justify="start" align="start">
-                <FarmCard
-                  type={FarmCardType.HOLDER}
-                  coinX={aniCoin}
-                  poolLP={holderPool.poolLP}
-                  poolCoinXAmount={holderPool.poolCoinXAmount}
-                  stakedLP={holderPool.stakedLP}
-                  earnedANI={holderPool.earnedANI}
-                  stakeAPR={holderPool.stakeAPR}
-                  nativePrice={nativePrice}
-                  withdrawFeeFreeTimestamp={holderPool.withdrawFeeFreeTimestamp}
-                  shares={holderPool.shares}
-                ></FarmCard>
-                <FarmCard
-                  type={FarmCardType.STAKE_ANI}
-                  coinX={aniCoin}
-                  poolLP={aniPool.poolLP}
-                  poolCoinXAmount={aniPool.poolCoinXAmount}
-                  stakedLP={aniPool.stakedLP}
-                  earnedANI={aniPool.earnedANI}
-                  stakeAPR={aniPool.stakeAPR}
-                  nativePrice={nativePrice}
-                ></FarmCard>
-                <FarmCard
-                  type={FarmCardType.FARM_APT_ANI}
-                  coinX={nativeCoin}
-                  coinY={aniCoin}
-                  poolLP={aptAniPool.poolLP}
-                  poolCoinXAmount={aptAniPool.poolCoinXAmount}
-                  poolCoinYAmount={aptAniPool.poolCoinYAmount}
-                  stakedLP={aptAniPool.stakedLP}
-                  earnedANI={aptAniPool.earnedANI}
-                  LPAPR={aptAniLPAPR}
-                  stakeAPR={aptAniPool.stakeAPR}
-                  nativePrice={nativePrice}
-                  hasRegisteredANI={hasRegisteredANI}
-                  onRegisterANI={onRegisterANI}
-                ></FarmCard>
-                {chainId === SupportedChainId.APTOS && (
-                  <FarmCard
-                    type={FarmCardType.FARM_APT_zUSDC}
-                    coinX={nativeCoin}
-                    coinY={zUSDC}
-                    poolLP={aptZUSDCPool.poolLP}
-                    poolCoinXAmount={aptZUSDCPool.poolCoinXAmount}
-                    poolCoinYAmount={aptZUSDCPool.poolCoinYAmount}
-                    stakedLP={aptZUSDCPool.stakedLP}
-                    earnedANI={aptZUSDCPool.earnedANI}
-                    LPAPR={aptZUSDCLPAPR}
-                    stakeAPR={aptZUSDCPool.stakeAPR}
-                    nativePrice={nativePrice}
-                    hasRegisteredANI={hasRegisteredANI}
-                    onRegisterANI={onRegisterANI}
-                  ></FarmCard>
-                )}
-              </AutoRow>
-            </AutoColumn>
-          </AutoColumn>
-        )}
-
         <VoteCard>
           <CardBGImage />
           <CardNoise />
@@ -362,12 +294,8 @@ export default function Pool() {
               <ExternalLink
                 style={{ color: theme.deprecated_white, textDecoration: 'underline' }}
                 target="_blank"
-                href="https://docs.hanakonfts.xyz.org"
-              >
-                {/* <ThemedText.DeprecatedWhite fontSize={14}>
-                  <Trans>Read more about providing liquidity</Trans>
-                </ThemedText.DeprecatedWhite> */}
-              </ExternalLink>
+                href="https://sui.org"
+              ></ExternalLink>
             </AutoColumn>
           </CardSection>
           <CardBGImage />
@@ -410,16 +338,6 @@ export default function Pool() {
               </EmptyProposals>
             ) : pairKeyNotZero.length > 0 ? (
               <>
-                {/* <ButtonSecondary>
-                  <RowBetween>
-                    <Trans>
-                      <ExternalLink href={'https://v2.info.uniswap.org/account/' + account}>
-                        Account analytics and accrued fees
-                      </ExternalLink>
-                      <span> ↗ </span>
-                    </Trans>
-                  </RowBetween>
-                </ButtonSecondary> */}
                 {pairs.map(
                   (pair) =>
                     pair && (

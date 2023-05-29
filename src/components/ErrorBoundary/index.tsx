@@ -116,7 +116,7 @@ export default class ErrorBoundary extends React.Component<PropsWithChildren<unk
                   <LinkWrapper>
                     <ExternalLink
                       id="create-github-issue-link"
-                      href={`https://github.com/AnimeSwap/interface/issues/new?assignees=&labels=bug&body=${encodedBody}&title=${encodeURIComponent(
+                      href={`https://github.com/test/interface/issues/new?assignees=&labels=bug&body=${encodedBody}&title=${encodeURIComponent(
                         `Crash report: \`${error.name}${error.message && `: ${error.message}`}\``
                       )}`}
                       target="_blank"
@@ -130,7 +130,7 @@ export default class ErrorBoundary extends React.Component<PropsWithChildren<unk
                   <LinkWrapper>
                     <ExternalLink
                       id="get-support-on-discord"
-                      href="https://discord.com/invite/animeswap"
+                      href="https://discord.com/invite/adadaasd"
                       target="_blank"
                     >
                       <ThemedText.DeprecatedLink fontSize={16}>

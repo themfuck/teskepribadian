@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: AnimeSwap-interface\n"
+"Project-Id-Version: Hanako-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2022-08-04 19:04\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: AnimeSwap-interface\n"
+"X-Crowdin-Project: Hanako-interface\n"
 "X-Crowdin-Project-ID: 458284\n"
 "X-Crowdin-Language: da\n"
 "X-Crowdin-File: en-US.po\n"
@@ -205,7 +205,7 @@ msgstr "Tillad høj pris påvirkning handler og springer over bekræftelsesskær
 
 #: src/pages/Swap/index.tsx
 msgid "Allow the Hanako Protocol to use your {0}"
-msgstr "Tillad AnimeSwap-protokollen at bruge din {0}"
+msgstr "Tillad Hanako-protokollen at bruge din {0}"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Allowed"
@@ -270,7 +270,7 @@ msgstr "Er du sikker?"
 
 #: src/components/claim/ClaimModal.tsx
 msgid "As a member of the Hanako community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
-msgstr "Som medlem af AnimeSwap-fællesskabet kan du kræve, at UNI skal bruges til afstemning og styring.<0/><1/><2>Læs mere om UNI</2>"
+msgstr "Som medlem af Hanako-fællesskabet kan du kræve, at UNI skal bruges til afstemning og styring.<0/><1/><2>Læs mere om UNI</2>"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "At least {0} {1} and {2} {3} will be refunded to your wallet due to selected price range."
@@ -637,7 +637,7 @@ msgstr "Indbetal tokens til {label} netværket."
 
 #: src/pages/Earn/index.tsx
 msgid "Deposit your Liquidity Provider tokens to receive UNI, the Hanako protocol governance token."
-msgstr "Indsæt dine likviditetsudbyder-tokens for at modtage UNI, AnimeSwap-protokolstyringstokenet."
+msgstr "Indsæt dine likviditetsudbyder-tokens for at modtage UNI, Hanako-protokolstyringstokenet."
 
 #: src/components/earn/UnstakingModal.tsx
 msgid "Deposited liquidity:"
@@ -815,7 +815,7 @@ msgstr "Udforsk Hanako Analytics."
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
 msgid "Failed to switch networks from the Hanako Interface. In order to use Hanako on {0}, you must change the network in your wallet."
-msgstr "Kunne ikke skifte netværk fra AnimeSwap-grænsefladen. For at bruge Hanako på {0}skal du ændre netværket i din tegnebog."
+msgstr "Kunne ikke skifte netværk fra Hanako-grænsefladen. For at bruge Hanako på {0}skal du ændre netværket i din tegnebog."
 
 #: src/components/PositionPreview/index.tsx
 msgid "Fee Tier"
@@ -1613,7 +1613,7 @@ msgstr "Byt {0} {1} til {2} {3}"
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Take a 10 minute survey to help us improve your experience in the Hanako app."
-msgstr "Tag en 10 minutters undersøgelse for at hjælpe os med at forbedre din oplevelse i AnimeSwap-appen."
+msgstr "Tag en 10 minutters undersøgelse for at hjælpe os med at forbedre din oplevelse i Hanako-appen."
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Tell us what you think ↗"
@@ -1621,7 +1621,7 @@ msgstr "Fortæl os, hvad du synes ↗"
 
 #: src/components/Popups/ClaimPopup.tsx
 msgid "Thanks for being part of the Hanako community <0/>"
-msgstr "Tak, fordi du er en del af AnimeSwap-gruppen <0/>"
+msgstr "Tak, fordi du er en del af Hanako-gruppen <0/>"
 
 #: src/components/FeeSelector/index.tsx
 msgid "The % you will earn in fees."
@@ -1629,7 +1629,7 @@ msgstr "Den%, du tjener i gebyrer."
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "The Hanako invariant x*y=k was not satisfied by the swap. This usually means one of the tokens you are swapping incorporates custom behavior on transfer."
-msgstr "AnimeSwap-invarianten x * y = k var ikke tilfreds med byttet. Dette betyder normalt, at et af de tokens, du bytter, indeholder brugerdefineret adfærd ved overførsel."
+msgstr "Hanako-invarianten x * y = k var ikke tilfreds med byttet. Dette betyder normalt, at et af de tokens, du bytter, indeholder brugerdefineret adfærd ved overførsel."
 
 #: src/components/swap/AdvancedSwapDetails.tsx
 msgid "The amount you expect to receive at the current market price. You may receive less or more if the market price changes while your transaction is pending."
@@ -1897,7 +1897,7 @@ msgstr "Hanako tilgængelig i: <0>{0}</0>"
 
 #: src/components/vote/ProposalEmptyState.tsx
 msgid "Hanako governance is only available on Layer 1. Switch your network to Aptos Mainnet to view Proposals and Vote."
-msgstr "AnimeSwap-styring er kun tilgængelig i lag 1. Skift dit netværk til Aptos Mainnet for at se forslag og afstemning."
+msgstr "Hanako-styring er kun tilgængelig i lag 1. Skift dit netværk til Aptos Mainnet for at se forslag og afstemning."
 
 #: src/pages/Earn/index.tsx
 msgid "Hanako liquidity mining"

@@ -301,9 +301,28 @@ export function ManageLists({
 
   return (
     <Wrapper>
+      {/* <PaddedColumn gap="14px">
+        <Row>
+          <SearchInput
+            type="text"
+            id="list-add-input"
+            placeholder={t`https:// or ipfs:// or ENS name`}
+            value={listUrlInput}
+            onChange={handleInput}
+          />
+        </Row>
+        {addError ? (
+          <ThemedText.DeprecatedError title={addError} style={{ textOverflow: 'ellipsis', overflow: 'hidden' }} error>
+            {addError}
+          </ThemedText.DeprecatedError>
+        ) : null}
+      </PaddedColumn> */}
       <Separator />
       <ListContainer>
         <AutoColumn gap="md">
+          {/* {sortedLists.map((listUrl) => (
+            <ListRow key={listUrl} listUrl={listUrl} />
+          ))} */}
           <RowWrapper active={true} hasActiveTokens={true} bgColor={'#8A2BE2'} key={''} id={'animeswap'}>
             <img
               src={logo}

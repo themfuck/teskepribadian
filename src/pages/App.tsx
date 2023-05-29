@@ -143,8 +143,6 @@ export default function App() {
         <FooterWrapper>
           <Footer />
         </FooterWrapper>
-        {/* <BottomRightLogo /> */}
-        {/* <BottomLeftLogo /> */}
       </AppWrapper>
     </ErrorBoundary>
   )

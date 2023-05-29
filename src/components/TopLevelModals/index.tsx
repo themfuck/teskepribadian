@@ -1,6 +1,4 @@
 import AddressClaimModal from 'components/claim/AddressClaimModal'
-// import ANIAirdropClaimModal from 'components/claim/ANIAirdropClaimModal'
-// import BindDiscordModal from 'components/claim/BindDiscordModal'
 import StakeModal from 'components/claim/StakeModal'
 import { useModalIsOpen, useToggleModal } from 'state/application/hooks'
 import { ApplicationModal } from 'state/application/reducer'
