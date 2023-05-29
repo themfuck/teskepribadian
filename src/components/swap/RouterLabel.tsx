@@ -32,5 +32,5 @@ export function AutoRouterLogo() {
 }
 
 export function AutoRouterLabel() {
-  return <StyledAutoRouterLabel fontSize={14}>Anime Router</StyledAutoRouterLabel>
+  return <StyledAutoRouterLabel fontSize={14}>Hanako Router</StyledAutoRouterLabel>
 }
